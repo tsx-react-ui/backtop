@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Backtop from '../src/index'
+import Backtop from '../dist/index'
 import './index.scss'
 
 export default class App extends React.Component {
