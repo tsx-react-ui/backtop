@@ -1,0 +1,27 @@
+// @import '~scss/_mixins';
+
+.container {
+    margin: 20px;
+
+    ul {
+        height: 500px;
+        overflow: scroll;
+    }
+
+    li {
+        height: 30px;
+        line-height: 30px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .custom-back-top {
+        background-color: #06f;
+         &-icon {
+             line-height: 40px;
+             font-size: 20px;
+             color: #fff;
+             text-align: center;
+         }
+    }
+}
+
